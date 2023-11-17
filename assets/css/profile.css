@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.hero {
+  width: 1140px;
+  height: 300px;
+  background: url("../image/three.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.profile {
+  display: flex;
+  margin-top: 30px;
+}
+.left {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: url("../image/testimonials-img-3-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.right {
+  padding-left: 50px;
+}
+.name {
+  font-family: raleway;
+  font-size: 32px;
+}
+.designation {
+  font-family: roboto;
+}
+.phone {
+  font-family: roboto;
+}
+.email {
+  font-family: roboto;
+  margin-bottom: 20px;
+}
+.btn {
+  color: white;
+  background: orange;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: raleway;
+  font-weight: 600;
+}
